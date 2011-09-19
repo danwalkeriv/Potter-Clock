@@ -1,0 +1,17 @@
+"""This module holds your personalized configuration information
+These are predefined anchor points."""
+
+#home_point: Whereyou live
+home_point = (40.621657,-74.029741)
+
+#work_point: Where you go during the day (work, school, bar)
+work_point = (40.740608,-74.001954)
+
+# The client ID supplied by the Google API site
+client_id = '012345678.apps.googleusercontent.com'
+
+# The client secret supplied by the Google API site
+client_secret = 'asidjfhkwepigASDFhaoix09'
+
+# User agent string to be used with Google API client
+user_agent = 'potter_clock_native_app/1.0'

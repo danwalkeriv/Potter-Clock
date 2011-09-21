@@ -17,10 +17,8 @@ if credentials is None or credentials.invalid == True:
 	    user_agent=config.user_agent,
 	    location='current',
 	    granularity='best')
-
     credentials = run(flow, storage)
 else:
     print("Authentication already complete.  "
           "If authentication for new account/user is desired, please delete "
           "latitude.dat")
-

@@ -10,8 +10,6 @@ import json
 from lxml import etree
 
 from apiclient.discovery import build
-from apiclient.discovery import build
-from oauth2client.client import OAuth2WebServerFlow
 from oauth2client.tools import run
 from oauth2client.file import Storage
 
@@ -39,19 +37,6 @@ def get_distance(p1, p2):
 def location_generator():
     """The default location generator that uses the Google Latitude API to
     query the user's current location."""
-    storage = Storage('latitude.dat')
-    credentials = storage.get()
-    if credentials is None or credentials.invalid == True:
-        auth_discovery = build("latitude", "v1").auth_discovery()
-        flow = OAuth2WebServerFlow(
-                    client_id=config.client_id,
-                    client_secret=config.client_secret,
-                    scope='https://www.googleapis.com/auth/latitude.current.best',
-                    user_agent=client.user_agent,
-                    location='current',
-                    granularity='best')
-
-        credentials = run(flow, storage)
     http = httplib2.Http()
     http = credentials.authorize(http)
     service = build("latitude", "v1", http=http)

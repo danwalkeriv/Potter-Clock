@@ -17,4 +17,3 @@ flow = OAuth2WebServerFlow(
 	    granularity='best')
 
 credentials = run(flow, storage)
-

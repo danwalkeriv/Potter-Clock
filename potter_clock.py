@@ -37,6 +37,13 @@ def get_distance(p1, p2):
 def location_generator():
     """The default location generator that uses the Google Latitude API to
     query the user's current location."""
+    
+    storage = Storage('latitude.dat')
+    credentials = storage.get()
+    if credentials is None or credentials.invalid == True:
+        print("Google OAuth credentials don't exist or are invalid.  Please "
+              "run authenticate.py and try again.")
+        exit()
     http = httplib2.Http()
     http = credentials.authorize(http)
     service = build("latitude", "v1", http=http)

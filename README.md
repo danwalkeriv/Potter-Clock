@@ -10,7 +10,7 @@ the light increases as you near home.
 
 The name "Potter Clock" was inspired by a magical artifact found in J.K Rowlings
 Harryp Potter novels that functions in a similar manner:
->Mrs. Weasley glanced at the grandfather clock in the corner. Harry liked this clock. It was completely useless if you wanted to know the time, but otherwise very informative. It had nine golden hands, and each of them was engraved with one of the Weasley family’s names. There were no numerals around the face, but descriptions of where each family member might be. “Home,” “school,” and “work” were there, but there was also “traveling,” “lost,” “hospital,” “prison,” and, in the position where the number twelve would be on a normal clock, “mortal peril.” 
+> Mrs. Weasley glanced at the grandfather clock in the corner. Harry liked this clock. It was completely useless if you wanted to know the time, but otherwise very informative. It had nine golden hands, and each of them was engraved with one of the Weasley family’s names. There were no numerals around the face, but descriptions of where each family member might be. “Home,” “school,” and “work” were there, but there was also “traveling,” “lost,” “hospital,” “prison,” and, in the position where the number twelve would be on a normal clock, “mortal peril.” 
 
 
 Overview

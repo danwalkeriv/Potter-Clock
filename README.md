@@ -9,7 +9,8 @@ red.  If you are out-and-about then the light is green, and the intensity of
 the light increases as you near home.
 
 The name "Potter Clock" was inspired by a magical artifact found in J.K Rowlings
-Harryp Potter novels that functions in a similar manner:
+Harry Potter novels that provides similar information about the members of the
+Weasley family:
 
 > Mrs. Weasley glanced at the grandfather clock in the corner. Harry liked this
 > clock. It was completely useless if you wanted to know the time, but
